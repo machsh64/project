@@ -32,6 +32,8 @@ MySQL版本：8
 
 Tomcat版本：8
 
+maven版本：3.6.3
+
 项目编码：UTF-8
 
 #### 1.2 使用技术
@@ -42,9 +44,7 @@ Tomcat版本：8
 
 *bootstrap,fontawesome,ajax.googleapis.com：网页组件，矢量图，字体的引用
 
-*lib中 druid数据库连接池，dbutils工具类，mysql-connector驱动
-
-*thymeleaf_lib中 thymeleaf的jar包
+*maven：打包
 
 #### 1.3 项目概览
 
