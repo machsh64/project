@@ -82,7 +82,13 @@ maven版本：3.6.3
 
 #### 1.2 修改 druid.properties 
 
-在resources中 将文件druid.properties中 username 与 password 修改为本地mysql账号密码
+##### 1.1 若在idea中配合tomcat启动 
+
+在web20sch1.2/src/main/resources中 将文件druid.properties中 username 与 password 修改为本地mysql账号密码
+
+##### 1.2 若在本地tomcat中启动
+
+在web20sch1.2-1.0-SNAPSHOT\WEB-INF\classes中 将文件druid.properties中 username 与 password 修改为本地mysql账号密码
 
 #### 1.3 启动
  
