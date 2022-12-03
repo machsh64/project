@@ -82,11 +82,17 @@ Tomcat版本：8
 
 #### 1.2 修改 druid.properties 
 
-将文件中 username 与 password 修改为本地mysql账号密码
+在resources中 将文件druid.properties中 username 与 password 修改为本地mysql账号密码
 
-#### 1.3 配置tomcat 并启动 
+#### 1.3 启动
+ 
+##### 1.1 在idea中配合tomcat启动 
 
 tomcat初始访问路径为 http://localhost:8080/(配置后生成的Applection Context路径)/topic.do?operate=page&page=index
+
+##### 1.2 在本地tomcat中启动
+
+将target中war包导入本地tomcat webapps目录下 启动tomcat 在浏览器中访问http://localhost:8080/web20sch1.2-1.0-SNAPSHOT/page.do?operate=page&page=index
 
 #### 1.4 默认初始账号
 
