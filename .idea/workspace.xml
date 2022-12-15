@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web20sch1.2:war exploded" />
+      <artifact name="web20sch2.1_SSM:war" />
     </artifacts-to-build>
   </component>
   <component name="BranchesTreeState">
@@ -31,11 +31,40 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3df1269e-0e1a-4fbf-96e2-f432276e54cb" name="Default Changelist" comment="md" />
+    <list default="true" id="3df1269e-0e1a-4fbf-96e2-f432276e54cb" name="Default Changelist" comment="md">
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/java/com/ren/myssm/util/SqlSessionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/java/com/ren/web20/mapper/AdminBasicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/java/com/ren/web20/mapper/TopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/java/com/ren/web20/mapper/UserBasicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/resources/com/ren/web20/mapper/AdminBasicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/resources/com/ren/web20/mapper/TopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/resources/com/ren/web20/mapper/UserBasicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/test/java/com/ren/web20/test/AdminBasicMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/test/java/com/ren/web20/test/TopicMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.1_SSM/src/test/java/com/ren/web20/test/UserBasicMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/java/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/java/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT.war" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-config" />
+        <option value="log4j" />
+        <option value="jdbc" />
+        <option value="mybatis-mapper" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -53,27 +82,193 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="2IPBqK222JUiaQLWxhiSRY3IajU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web20sch2.1_SSM" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.289899" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat 8.5.82" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web20/topic.do?operate=page&amp;page=index" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ren.myssm.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\RenComp\gitRep" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat web20sch1.2 IOC">
+    <configuration name="UserBasicMapperTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20sch2.1_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ren.web20.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ren.web20.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.web20.test.UserBasicMapperTest" />
+      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserBasicMapperTest.testFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20sch2.1_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ren.web20.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ren.web20.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.web20.test.UserBasicMapperTest" />
+      <option name="METHOD_NAME" value="testFinder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserBasicMapperTest.testGetAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20sch2.1_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ren.web20.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ren.web20.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.web20.test.UserBasicMapperTest" />
+      <option name="METHOD_NAME" value="testGetAllUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserBasicMapperTest.testGetAuthorById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20sch2.1_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ren.web20.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ren.web20.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.web20.test.UserBasicMapperTest" />
+      <option name="METHOD_NAME" value="testGetAuthorById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserBasicMapperTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20sch2.1_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ren.web20.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ren.web20.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.web20.test.UserBasicMapperTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat web20sch1.2 IOC" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web20sch1_2/topic.do?operate=page&amp;page=index" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="web20sch1.2:war exploded">
+        <artifact name="web20sch1.2:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/web20" />
+            <option name="CONTEXT_PATH" value="/web20sch1_2" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web20sch1_2_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51340" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web20sch1.2:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Tomcat web20sch2.1 SSM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web20sch2_1_SSM/topic.do?operate=page&amp;page=index" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web20sch2.1_SSM:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web20sch2_1_SSM" />
           </settings>
         </artifact>
       </deployment>
@@ -136,10 +331,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="web20sch1.2:war exploded" />
+          <artifact name="web20sch2.1_SSM:war" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.UserBasicMapperTest.testAddUser" />
+      <item itemvalue="JUnit.UserBasicMapperTest.testFinder" />
+      <item itemvalue="JUnit.UserBasicMapperTest.testGetAllUser" />
+      <item itemvalue="JUnit.UserBasicMapperTest.testGetAuthorById" />
+      <item itemvalue="JUnit.UserBasicMapperTest.testLogin" />
+      <item itemvalue="Tomcat Server.Tomcat web20sch2.1 SSM" />
+      <item itemvalue="Tomcat Server.Tomcat web20sch1.2 IOC" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserBasicMapperTest.testAddUser" />
+        <item itemvalue="JUnit.UserBasicMapperTest.testGetAllUser" />
+        <item itemvalue="JUnit.UserBasicMapperTest.testGetAuthorById" />
+        <item itemvalue="JUnit.UserBasicMapperTest.testFinder" />
+        <item itemvalue="JUnit.UserBasicMapperTest.testLogin" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -152,7 +365,11 @@
       <option name="presentableId" value="Default" />
       <updated>1670073527153</updated>
       <workItem from="1670073528353" duration="2469000" />
-      <workItem from="1670076368661" duration="1158000" />
+      <workItem from="1670076368661" duration="2662000" />
+      <workItem from="1670480204886" duration="39000" />
+      <workItem from="1670562995542" duration="836000" />
+      <workItem from="1670579700231" duration="35000" />
+      <workItem from="1670839902206" duration="23912000" />
     </task>
     <task id="LOCAL-00001" summary="md">
       <created>1670076639696</created>
@@ -203,81 +420,172 @@
     <option name="LAST_COMMIT_MESSAGE" value="md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1670073671032">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="449" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671119968606">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="449" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671119968606" />
     <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073671032" />
-    <state width="476" height="319" key="GridCell.Tab.0.bottom" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1671110291168">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671110291168" />
+    <state x="1162" y="213" key="FileChooserDialogImpl" timestamp="1671110045712">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1162" y="213" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671110045712" />
+    <state width="1579" height="300" key="GridCell.Tab.0.bottom" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1579" height="300" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.0.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.0.center" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.0.center" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.0.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.0.left" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.0.left" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.0.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.0.right" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.0.right" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.0.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.1.bottom" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.1.bottom" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.1.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.1.center" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.1.center" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.1.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.1.left" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.1.left" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.1.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.1.right" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.1.right" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.1.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.2.bottom" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.2.bottom" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.2.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.2.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.2.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.2.center" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.2.center" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.2.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.2.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.2.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.2.left" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.2.left" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.2.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.2.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.2.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="476" height="319" key="GridCell.Tab.2.right" timestamp="1670076108652">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state width="1579" height="300" key="GridCell.Tab.2.right" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="1579" height="300" key="GridCell.Tab.2.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1144" height="214" key="GridCell.Tab.2.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671096695426" />
     <state width="680" height="319" key="GridCell.Tab.2.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state x="505" y="150" key="SettingsEditor" timestamp="1670073656104">
+    <state width="1579" height="300" key="GridCell.Tab.3.bottom" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1579" height="300" key="GridCell.Tab.3.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1579" height="300" key="GridCell.Tab.3.center" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1579" height="300" key="GridCell.Tab.3.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1579" height="300" key="GridCell.Tab.3.left" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1579" height="300" key="GridCell.Tab.3.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state width="1579" height="300" key="GridCell.Tab.3.right" timestamp="1671122256664">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1579" height="300" key="GridCell.Tab.3.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122256664" />
+    <state x="553" y="276" key="NewModule_or_Project.wizard" timestamp="1671110047696">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="553" y="276" key="NewModule_or_Project.wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671110047696" />
+    <state x="373" y="145" key="SettingsEditor" timestamp="1671113884857">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="373" y="145" key="SettingsEditor/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671113884857" />
+    <state x="505" y="150" key="SettingsEditor/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073656104" />
+    <state x="371" y="374" key="Vcs.Push.Dialog.v2" timestamp="1670077507281">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="505" y="150" key="SettingsEditor/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073656104" />
-    <state x="3088" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670076077623">
-      <screen x="2560" y="4" width="1463" height="823" />
+    <state x="371" y="374" key="Vcs.Push.Dialog.v2/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670077507281" />
+    <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1671120552634">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state width="968" height="548" key="XDebugger.FullValuePopup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671120552634" />
+    <state x="859" y="418" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1671111505275">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="859" y="418" key="com.intellij.database.actions.DdlActions$CreateObject$1/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671111505275" />
+    <state x="816" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1671111352475">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="816" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671111352475" />
+    <state x="739" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670077413266">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="739" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670077413266" />
     <state x="3088" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076077623" />
+    <state x="486" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1671121578816">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="486" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671121578816" />
     <state x="3005" y="202" key="git4idea.merge.GitPullDialog" timestamp="1670076084951">
       <screen x="2560" y="4" width="1463" height="823" />
     </state>
     <state x="3005" y="202" key="git4idea.merge.GitPullDialog/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076084951" />
+    <state x="517" y="189" width="882" height="890" key="search.everywhere.popup" timestamp="1671122488047">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="517" y="189" width="882" height="890" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122488047" />
+    <state x="2314" y="144" width="672" height="678" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1670963135721" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web20sch1.2/src/main/java/com/ren/web20/service/impl/TopicServiceImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

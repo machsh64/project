@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace对应mapper接口的全类型 -->
+<mapper namespace="com.ren.web20.mapper.UserBasicMapper">
+    <!-- sql语句填写区 例：<select id="mapper接口中的方法" resultType="数据类型全类名/别名">sql语句</select>-->
+
+    <!-- Author login(@Param("loginId") String loginId,@Param("password") String password);-->
+    <select id="login" resultType="Author">
+        SELECT id, nickName, loginId, password
+        FROM w_author
+        WHERE loginId = #{loginId}
+          AND password = #{password}
+    </select>
+
+    <!-- Author finder(Author author); -->
+    <select id="finder" resultType="Author">
+        SELECT nickName, loginId, password
+        FROM w_author
+        WHERE nickName = #{nickName}
+          AND loginId = #{loginId}
+          AND password = #{password}
+    </select>
+
+    <!-- Author getAuthorById(@Param("authorId") Integer authorId); -->
+    <select id="getAuthorById" resultType="Author">
+        SELECT id, nickName, loginId, password
+        FROM w_author
+        WHERE id = #{authorId}
+    </select>
+
+    <!-- List<Author> getAllUser(); -->
+    <select id="getAllUser" resultType="Author">
+        SELECT nickName, loginId, password
+        FROM w_author
+    </select>
+
+    <!-- Integer addUser(Author author); -->
+    <insert id="addUser">
+        INSERT INTO w_author(nickName, loginId, password)
+        VALUES (#{nickName},#{loginId},#{password})
+    </insert>
+</mapper>
