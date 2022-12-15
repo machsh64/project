@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.ren.web20.test.UserBasicMapperTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.ren.web20.test.UserBasicMapperTest" time="0.008" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\bin"/>
@@ -65,8 +65,8 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase classname="com.ren.web20.test.UserBasicMapperTest" name="testAddUser" time="0.001"/>
-  <testcase classname="com.ren.web20.test.UserBasicMapperTest" name="testLogin" time="0"/>
+  <testcase classname="com.ren.web20.test.UserBasicMapperTest" name="testLogin" time="0.002"/>
   <testcase classname="com.ren.web20.test.UserBasicMapperTest" name="testGetAllUser" time="0.002"/>
   <testcase classname="com.ren.web20.test.UserBasicMapperTest" name="testGetAuthorById" time="0.001"/>
-  <testcase classname="com.ren.web20.test.UserBasicMapperTest" name="testFinder" time="0.001"/>
+  <testcase classname="com.ren.web20.test.UserBasicMapperTest" name="testFinder" time="0.002"/>
 </testsuite>
