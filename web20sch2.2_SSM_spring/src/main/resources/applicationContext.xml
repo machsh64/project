@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="userBasicMapper" class="com.ren.web20.mapper.UserBasicMapper"/>
+    <bean id="topicMapper" class="com.ren.web20.mapper.TopicMapper"/>
+    <bean id="adminBasicMapper" class="com.ren.web20.mapper.AdminBasicMapper"/>
+
+    <bean id="topicService" class="com.ren.web20.service.impl.TopicServiceImpl">
+        <property name="topicMapper" ref="topicMapper"/>
+    </bean>
+
+    <bean id="userBasicService" class="com.ren.web20.service.impl.UserBasicServiceImpl">
+        <property name="userBasicMapper" ref="userBasicMapper"/>
+        <property name="topicService" ref="topicService"/>
+    </bean>
+
+    <bean id="adminBasicService" class="com.ren.web20.service.impl.AdminBasicServiceImpl">
+        <property name="adminBasicMapper" ref="adminBasicMapper"/>
+        <property name="topicService" ref="topicService"/>
+        <property name="userBasicService" ref="userBasicService"/>
+    </bean>
+
+    <bean id="topic" class="com.ren.web20.controller.TopicController">
+        <property name="topicService" ref="topicService"/>
+        <property name="userBasicService" ref="userBasicService"/>
+    </bean>
+
+    <bean id="user" class="com.ren.web20.controller.UserController">
+        <property name="userBasicService" ref="userBasicService"/>
+        <property name="adminBasicService" ref="adminBasicService"/>
+        <property name="topicService" ref="topicService"/>
+    </bean>
+
+    <bean id="page" class="com.ren.myssm.myspringmvc.PageController">
+        <property name="topicService" ref="topicService"/>
+    </bean>
+</beans>
