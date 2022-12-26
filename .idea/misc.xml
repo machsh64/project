@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/LiveShow_sch" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch1.2" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch2.1_SSM" />
+    <file type="web" url="file://$PROJECT_DIR$/web20sch2.1_SSM_mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch2.2_SSM_spring" />
   </component>
   <component name="JavaScriptSettings">
@@ -14,6 +16,8 @@
         <option value="$PROJECT_DIR$/web20sch1.2/pom.xml" />
         <option value="$PROJECT_DIR$/web20sch2.1_SSM/pom.xml" />
         <option value="$PROJECT_DIR$/web20sch2.2_SSM_spring/pom.xml" />
+        <option value="$PROJECT_DIR$/LiveShow_sch/pom.xml" />
+        <option value="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/pom.xml" />
       </list>
     </option>
   </component>

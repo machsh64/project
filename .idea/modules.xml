@@ -3,9 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CompanyTeam/CompanyTeam.iml" filepath="$PROJECT_DIR$/CompanyTeam/CompanyTeam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LiveShow_sch/LiveShow_sch.iml" filepath="$PROJECT_DIR$/LiveShow_sch/LiveShow_sch.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/gitRep.iml" filepath="$PROJECT_DIR$/.idea/gitRep.iml" />
       <module fileurl="file://$PROJECT_DIR$/web20sch1.2/web20sch1.2.iml" filepath="$PROJECT_DIR$/web20sch1.2/web20sch1.2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web20sch2.1_SSM/web20sch2.1_SSM.iml" filepath="$PROJECT_DIR$/web20sch2.1_SSM/web20sch2.1_SSM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web20sch2.1_SSM_mybatis/web20sch2.1_SSM_mybatis.iml" filepath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/web20sch2.1_SSM_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/web20sch2.2_SSM_spring/web20sch2.2_SSM_spring.iml" filepath="$PROJECT_DIR$/web20sch2.2_SSM_spring/web20sch2.2_SSM_spring.iml" />
     </modules>
   </component>

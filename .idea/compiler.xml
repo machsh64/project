@@ -7,20 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="web20sch2.2_SSM_spring" />
+        <module name="web20sch2.1_SSM_mybatis" />
+        <module name="LiveShow_sch" />
         <module name="web20sch1.2" />
-        <module name="web20sch2.1_SSM" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="LiveShow_sch" target="1.8" />
       <module name="web20sch1.2" target="1.8" />
       <module name="web20sch2.1_SSM" target="1.8" />
+      <module name="web20sch2.1_SSM_mybatis" target="1.8" />
       <module name="web20sch2.2_SSM_spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="LiveShow_sch" options="-parameters" />
       <module name="web20sch1.2" options="-parameters" />
       <module name="web20sch2.1_SSM" options="-parameters" />
+      <module name="web20sch2.1_SSM_mybatis" options="-parameters" />
       <module name="web20sch2.2_SSM_spring" options="-parameters" />
     </option>
   </component>
