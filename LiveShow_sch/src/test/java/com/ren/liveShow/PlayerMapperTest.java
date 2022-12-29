@@ -1,7 +1,7 @@
-package com.ren.liveShow;
+package com.ren.liveshow;
 
-import com.ren.liveShow.mapper.PlayerMapper;
-import com.ren.liveShow.pojo.Player;
+import com.ren.liveshow.mapper.PlayerMapper;
+import com.ren.liveshow.pojo.Player;
 import com.ren.myssm.util.SortListToArrayUtil;
 
 import com.ren.myssm.util.SqlSessionUtil;

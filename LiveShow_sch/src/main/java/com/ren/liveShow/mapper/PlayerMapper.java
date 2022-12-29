@@ -1,6 +1,6 @@
-package com.ren.liveShow.mapper;
+package com.ren.liveshow.mapper;
 
-import com.ren.liveShow.pojo.Player;
+import com.ren.liveshow.pojo.Player;
 
 import java.util.List;
 

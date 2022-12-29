@@ -1,7 +1,7 @@
-package com.ren.liveShow.controller;
+package com.ren.liveshow.controller;
 
-import com.ren.liveShow.pojo.Player;
-import com.ren.liveShow.service.GameService;
+import com.ren.liveshow.pojo.Player;
+import com.ren.liveshow.service.GameService;
 import com.ren.myssm.util.StringUtil;
 
 /**

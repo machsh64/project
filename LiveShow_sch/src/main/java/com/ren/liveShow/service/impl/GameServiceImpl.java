@@ -1,8 +1,8 @@
-package com.ren.liveShow.service.impl;
+package com.ren.liveshow.service.impl;
 
-import com.ren.liveShow.mapper.PlayerMapper;
-import com.ren.liveShow.pojo.Player;
-import com.ren.liveShow.service.GameService;
+import com.ren.liveshow.mapper.PlayerMapper;
+import com.ren.liveshow.pojo.Player;
+import com.ren.liveshow.service.GameService;
 import com.ren.myssm.util.SortListToArrayUtil;
 
 import java.util.List;
