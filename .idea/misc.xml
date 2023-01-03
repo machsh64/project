@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/LiveShow_sch" />
+    <file type="web" url="file://$PROJECT_DIR$/liveshow_ssm" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch1.2" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch2.1_SSM" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch2.1_SSM_mybatis" />
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/web20sch2.2_SSM_spring/pom.xml" />
         <option value="$PROJECT_DIR$/LiveShow_sch/pom.xml" />
         <option value="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/liveshow_ssm/pom.xml" />
       </list>
     </option>
   </component>

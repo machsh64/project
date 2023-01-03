@@ -31,7 +31,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3df1269e-0e1a-4fbf-96e2-f432276e54cb" name="Default Changelist" comment="md" />
+    <list default="true" id="3df1269e-0e1a-4fbf-96e2-f432276e54cb" name="Default Changelist" comment="md">
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/liveshow_ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/liveshow_ssm.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web20sch2.1_SSM_mybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/liveshow_ssm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.289899" />
@@ -382,6 +384,7 @@
       <workItem from="1671526612317" duration="9267000" />
       <workItem from="1672045793020" duration="1818000" />
       <workItem from="1672058033628" duration="14000" />
+      <workItem from="1672735938923" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="md">
       <created>1670076639696</created>
@@ -450,10 +453,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671125933838" />
-    <state x="1162" y="213" key="FileChooserDialogImpl" timestamp="1672045966261">
+    <state x="1162" y="213" key="FileChooserDialogImpl" timestamp="1672735967264">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1162" y="213" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672045966261" />
+    <state x="1162" y="213" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672735967264" />
     <state x="2533" y="119" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671569435346" />
     <state width="1189" height="184" key="GridCell.Tab.0.bottom" timestamp="1671468325598">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -555,14 +558,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1579" height="300" key="GridCell.Tab.3.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671126740640" />
-    <state x="553" y="276" key="NewModule_or_Project.wizard" timestamp="1672045968008">
+    <state x="553" y="276" key="NewModule_or_Project.wizard" timestamp="1672735968929">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="276" key="NewModule_or_Project.wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672045968008" />
-    <state x="360" y="107" width="1040" height="716" key="SettingsEditor" timestamp="1672045972502">
+    <state x="553" y="276" key="NewModule_or_Project.wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672735968929" />
+    <state x="360" y="107" width="1040" height="716" key="SettingsEditor" timestamp="1672735970724">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="360" y="107" width="1040" height="716" key="SettingsEditor/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672045972502" />
+    <state x="360" y="107" width="1040" height="716" key="SettingsEditor/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672735970724" />
     <state x="505" y="150" key="SettingsEditor/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073656104" />
     <state x="371" y="374" key="Vcs.Push.Dialog.v2" timestamp="1670077507281">
       <screen x="0" y="0" width="2048" height="1152" />
