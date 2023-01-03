@@ -1,2 +1,1 @@
-mybatis的参赛选手晋级web项目
-访问路径 localhost/.../index.do?operate=index
+ssm整合的参赛选手列表网页，选手排序与晋级模块
