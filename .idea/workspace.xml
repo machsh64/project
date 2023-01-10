@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web20sch1.2:war" />
+      <artifact name="web20sch2.4_SSM:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="BranchesTreeState">
@@ -32,7 +32,173 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3df1269e-0e1a-4fbf-96e2-f432276e54cb" name="Default Changelist" comment="md">
-      <change beforePath="$PROJECT_DIR$/liveshow_ssm/liveshow_ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/liveshow_ssm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/interceptor/firstInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/springmvc-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/test/java/com/ren/web20/test/AdminBasicMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/test/java/com/ren/web20/test/TopicMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/test/java/com/ren/web20/test/UserBasicMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch2.4_SSM/web20schdb.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/filters/CharacterEncodingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/filters/OpenSessionInViewFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/ioc/BeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/ioc/ClassPathXmlApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/listeners/ContextLoaderListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/myspringmvc/DispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/myspringmvc/DispatcherServletException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/myspringmvc/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/controller/PageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/myspringmvc/ViewBaseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/trans/TransactionManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/util/SqlSessionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/myssm/util/TopicUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/util/TopicUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/controller/TopicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/controller/TopicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/mapper/AdminBasicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/mapper/AdminBasicMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/mapper/TopicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/mapper/TopicMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/mapper/UserBasicMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/mapper/UserBasicMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/pojo/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/pojo/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/pojo/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/pojo/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/service/AdminBasicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/AdminBasicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/service/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/TopicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/service/UserBasicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/UserBasicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/service/impl/AdminBasicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/impl/AdminBasicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/service/impl/TopicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/impl/TopicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/java/com/ren/web20/service/impl/UserBasicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/impl/UserBasicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/applicationContext1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/com/ren/web20/mapper/AdminBasicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/com/ren/web20/mapper/AdminBasicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/com/ren/web20/mapper/TopicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/com/ren/web20/mapper/TopicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/com/ren/web20/mapper/UserBasicMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/com/ren/web20/mapper/UserBasicMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/authorWadmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/authorWadmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/MaterialIcons-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/MaterialIcons-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/MaterialIcons-Regular.ijmap" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/MaterialIcons-Regular.ijmap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/Mercury-Regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/Mercury-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/Mercury-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fl-bigmug-line.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fl-bigmug-line.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fl-bigmug-line.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/lg.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/lg.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/materialdesignicons-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/materialdesignicons-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/_blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/_blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/about-1-437x435.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/about-1-437x435.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/about-1-531x640.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/about-1-531x640.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/about-2-649x427.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/about-2-649x427.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/about-3-649x427.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/about-3-649x427.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/about-4-649x427.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/about-4-649x427.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/award-1-134x98-inverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/award-1-134x98-inverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/award-2-115x117-inverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/award-2-115x117-inverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/award-3-116x103-inverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/award-3-116x103-inverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/award-4-131x96-inverse.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/award-4-131x96-inverse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/bg-image-6-1920x1225.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/bg-image-6-1920x1225.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/bg-image-7-1920x1244.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/bg-image-7-1920x1244.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/breadcrumbs-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/breadcrumbs-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/certificate-1-120x171.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/certificate-1-120x171.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/certificate-1-847x1200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/certificate-1-847x1200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/certificate-2-847x1200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/certificate-2-847x1200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/certificate-3-847x1200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/certificate-3-847x1200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-1-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-1-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-1-440x327.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-1-440x327.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-10-444x683.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-10-444x683.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-10-835x1200-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-10-835x1200-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-14-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-14-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-14-440x327.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-14-440x327.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-15-1200x801-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-15-1200x801-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-15-440x327.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-15-440x327.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-2-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-2-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-2-440x327.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-2-440x327.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-9-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-9-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/gallery-image-9-444x683.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/gallery-image-9-444x683.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/group-image-1-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/group-image-1-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/group-image-2-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/group-image-2-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/group-image-3-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/group-image-3-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/group-image-4-1200x800-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/group-image-4-1200x800-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/home1-1-961x664.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/home1-1-961x664.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/home1-2-961x664.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/home1-2-961x664.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/home1-3-961x664.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/home1-3-961x664.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/home1-4-1200x695-original.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/home1-4-1200x695-original.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/home1-4-961x664.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/home1-4-961x664.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/isotope-loader.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/isotope-loader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/loading.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/logo-default-237x35.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/logo-default-237x35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/logo-inverse-237x35.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/logo-inverse-237x35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/mCSB_buttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/mCSB_buttons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/preloader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/preloader.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/preloader.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/typography-1-770x485.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/typography-1-770x485.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/user-1-46x46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/user-1-46x46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/user-2-46x46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/user-2-46x46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/user-6-46x46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/user-6-46x46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/video-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/video-play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/vimeo-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/vimeo-play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/images/youtube-play.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/images/youtube-play.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/MaterialIcons-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/MaterialIcons-Regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/MaterialIcons-Regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/MaterialIcons-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/lg.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/lg.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/lg.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/lg.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/materialdesignicons-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/materialdesignicons-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/materialdesignicons-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/fonts/materialdesignicons-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/2021031609321462.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/2021031609321462.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/LineDe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/LineDe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/ajax-loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/catch_us.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/catch_us.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/headBc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/headBc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/loginPage.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/loginPage.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/loginbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/loginbg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/main_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/main_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/main_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/main_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/main_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/main_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/main_bc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/main_bc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/mian_04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/mian_04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/topicwA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/topicwA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/warp_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/warp_01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/warp_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/warp_02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/warp_03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/warp_03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/images/warp_04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/images/warp_04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/js/authorWadmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/js/authorWadmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/js/topicHt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/js/topicHt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/setTopic.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/setTopic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/topicDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/topicDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/src/main/webapp/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.2_SSM_spring/web20sch2.2_SSM_spring.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +261,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/liveshow_ssm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/js" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.289899" />
@@ -103,19 +269,24 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\static" />
+      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\WEB-INF\templates" />
       <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src\main" />
       <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ren.web20.controller" />
       <recent name="com.ren.myssm.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src\main" />
-      <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src" />
+      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\static\js" />
+      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\WEB-INF\templates" />
+      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\java\com\ren\web20" />
       <recent name="D:\RenComp\gitRep" />
+      <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat web20sch1.2 IOC">
+  <component name="RunManager" selected="Tomcat Server.web20 SSM">
     <configuration name="UserBasicMapperTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web20sch2.1_SSM" />
       <extension name="coverage">
@@ -269,11 +440,11 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Tomcat web20sch2.1 SSM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat web20sch2.1 mybatis" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web20sch2_1_SSM/topic.do?operate=page&amp;page=index" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="web20sch2.1_SSM:war">
+        <artifact name="web20sch2.1_SSM_mybatis:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/web20sch2_1_SSM" />
           </settings>
@@ -338,7 +509,80 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="web20sch2.1_SSM:war" />
+          <artifact name="web20sch2.1_SSM_mybatis:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="web20 SSM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web20sch2_4_SSM/index/index" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web20sch2.4_SSM:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web20sch2_4_SSM" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web20sch1_2_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52763" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web20sch2.4_SSM:war exploded" />
         </option>
       </method>
     </configuration>
@@ -348,7 +592,8 @@
       <item itemvalue="JUnit.UserBasicMapperTest.testGetAllUser" />
       <item itemvalue="JUnit.UserBasicMapperTest.testGetAuthorById" />
       <item itemvalue="JUnit.UserBasicMapperTest.testLogin" />
-      <item itemvalue="Tomcat Server.Tomcat web20sch2.1 SSM" />
+      <item itemvalue="Tomcat Server.web20 SSM" />
+      <item itemvalue="Tomcat Server.Tomcat web20sch2.1 mybatis" />
       <item itemvalue="Tomcat Server.Tomcat web20sch1.2 IOC" />
     </list>
     <recent_temporary>
@@ -385,6 +630,8 @@
       <workItem from="1672045793020" duration="1818000" />
       <workItem from="1672058033628" duration="14000" />
       <workItem from="1672735938923" duration="61000" />
+      <workItem from="1673090049807" duration="2421000" />
+      <workItem from="1673166850105" duration="23355000" />
     </task>
     <task id="LOCAL-00001" summary="md">
       <created>1670076639696</created>
@@ -440,141 +687,145 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671616600088" />
-    <state x="449" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671119968606">
+    <state x="449" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1673260950167">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="449" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671119968606" />
+    <state x="449" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673260950167" />
     <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073671032" />
+    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1673090818781">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673090818781" />
     <state x="661" y="478" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1671616499556">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="661" y="478" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671616499556" />
-    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1671125933838">
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1673091822901">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671125933838" />
-    <state x="1162" y="213" key="FileChooserDialogImpl" timestamp="1672735967264">
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673091822901" />
+    <state x="1162" y="213" key="FileChooserDialogImpl" timestamp="1673090512578">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1162" y="213" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672735967264" />
+    <state x="1162" y="213" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673090512578" />
     <state x="2533" y="119" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671569435346" />
-    <state width="1189" height="184" key="GridCell.Tab.0.bottom" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.0.bottom" timestamp="1673347868769">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347868769" />
     <state width="1189" height="184" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.0.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.0.center" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.0.center" timestamp="1673347868769">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347868769" />
     <state width="1189" height="184" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168818" />
     <state width="680" height="319" key="GridCell.Tab.0.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.0.left" timestamp="1671468325597">
+    <state width="1579" height="394" key="GridCell.Tab.0.left" timestamp="1673347868769">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325597" />
+    <state width="1579" height="394" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347868769" />
     <state width="1189" height="184" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168818" />
     <state width="680" height="319" key="GridCell.Tab.0.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.0.right" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.0.right" timestamp="1673347868769">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347868769" />
     <state width="1189" height="184" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.0.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.1.bottom" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.1.bottom" timestamp="1673347870246">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347870246" />
     <state width="1189" height="184" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.1.center" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.1.center" timestamp="1673347870246">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347870246" />
     <state width="1189" height="184" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.1.left" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.1.left" timestamp="1673347870246">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347870246" />
     <state width="1189" height="184" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.1.right" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.1.right" timestamp="1673347870246">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347870246" />
     <state width="1189" height="184" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.2.bottom" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.2.bottom" timestamp="1673347872579">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.2.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.2.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347872579" />
     <state width="1189" height="184" key="GridCell.Tab.2.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.2.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.2.center" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.2.center" timestamp="1673347872579">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.2.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.2.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347872579" />
     <state width="1189" height="184" key="GridCell.Tab.2.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.2.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.2.left" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.2.left" timestamp="1673347872579">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.2.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.2.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347872579" />
     <state width="1189" height="184" key="GridCell.Tab.2.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.2.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1189" height="184" key="GridCell.Tab.2.right" timestamp="1671468325598">
+    <state width="1579" height="394" key="GridCell.Tab.2.right" timestamp="1673347872579">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1189" height="184" key="GridCell.Tab.2.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671468325598" />
+    <state width="1579" height="394" key="GridCell.Tab.2.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347872579" />
     <state width="1189" height="184" key="GridCell.Tab.2.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.2.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.2.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1579" height="300" key="GridCell.Tab.3.bottom" timestamp="1671126740640">
+    <state width="1579" height="394" key="GridCell.Tab.3.bottom" timestamp="1673347719245">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="300" key="GridCell.Tab.3.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671126740640" />
-    <state width="1579" height="300" key="GridCell.Tab.3.center" timestamp="1671126740640">
+    <state width="1579" height="394" key="GridCell.Tab.3.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347719245" />
+    <state width="1579" height="394" key="GridCell.Tab.3.center" timestamp="1673347719245">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="300" key="GridCell.Tab.3.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671126740640" />
-    <state width="1579" height="300" key="GridCell.Tab.3.left" timestamp="1671126740640">
+    <state width="1579" height="394" key="GridCell.Tab.3.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347719245" />
+    <state width="1579" height="394" key="GridCell.Tab.3.left" timestamp="1673347719245">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="300" key="GridCell.Tab.3.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671126740640" />
-    <state width="1579" height="300" key="GridCell.Tab.3.right" timestamp="1671126740640">
+    <state width="1579" height="394" key="GridCell.Tab.3.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347719245" />
+    <state width="1579" height="394" key="GridCell.Tab.3.right" timestamp="1673347719245">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="300" key="GridCell.Tab.3.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671126740640" />
-    <state x="553" y="276" key="NewModule_or_Project.wizard" timestamp="1672735968929">
+    <state width="1579" height="394" key="GridCell.Tab.3.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673347719245" />
+    <state x="553" y="276" key="NewModule_or_Project.wizard" timestamp="1673090513984">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="553" y="276" key="NewModule_or_Project.wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672735968929" />
-    <state x="360" y="107" width="1040" height="716" key="SettingsEditor" timestamp="1672735970724">
+    <state x="553" y="276" key="NewModule_or_Project.wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673090513984" />
+    <state x="385" y="293" width="1040" height="716" key="SettingsEditor" timestamp="1673090518029">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="360" y="107" width="1040" height="716" key="SettingsEditor/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1672735970724" />
+    <state x="385" y="293" width="1040" height="716" key="SettingsEditor/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673090518029" />
     <state x="505" y="150" key="SettingsEditor/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073656104" />
     <state x="371" y="374" key="Vcs.Push.Dialog.v2" timestamp="1670077507281">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="371" y="374" key="Vcs.Push.Dialog.v2/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670077507281" />
-    <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1671122723645">
+    <state width="968" height="548" key="XDebugger.FullValuePopup" timestamp="1673262050083">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="968" height="548" key="XDebugger.FullValuePopup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122723645" />
+    <state width="968" height="548" key="XDebugger.FullValuePopup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673262050083" />
     <state x="859" y="418" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1671111505275">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -583,15 +834,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="816" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671111352475" />
+    <state x="71" y="161" width="1736" height="834" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1673260446137">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="71" y="161" width="1736" height="834" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673260446137" />
     <state x="739" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670077413266">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="739" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670077413266" />
     <state x="3088" y="328" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076077623" />
-    <state x="486" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1671121578816">
+    <state x="486" y="275" width="1037" height="685" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1673343526873">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="486" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671121578816" />
+    <state x="486" y="275" width="1037" height="685" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673343526873" />
     <state x="3005" y="202" key="git4idea.merge.GitPullDialog" timestamp="1670076084951">
       <screen x="2560" y="4" width="1463" height="823" />
     </state>
@@ -600,10 +855,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="334" y="201" key="new project wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671616390709" />
-    <state x="517" y="189" width="882" height="890" key="search.everywhere.popup" timestamp="1671122488047">
+    <state x="815" y="276" width="882" height="890" key="search.everywhere.popup" timestamp="1673345176961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="517" y="189" width="882" height="890" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671122488047" />
+    <state x="815" y="276" width="882" height="890" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673345176961" />
     <state x="2314" y="144" width="672" height="678" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1670963135721" />
     <state x="640" y="222" key="spring file set editor" timestamp="1671616883648">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -613,15 +868,26 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web20sch1.2/src/main/java/com/ren/myssm/util/TopicUtil.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="40" />
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/impl/TopicServiceImpl.java</url>
+          <line>49</line>
+          <properties class="com.ren.web20.service.impl.TopicServiceImpl" method="addTopic">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/controller/TopicController.java</url>
+          <line>113</line>
+          <properties class="com.ren.web20.controller.TopicController" method="updateTopic">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web20sch1.2/src/main/java/com/ren/myssm/util/TopicUtil.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/controller/TopicController.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
