@@ -65,7 +65,7 @@ spring.version：5.3.1
 
 #### 1.3 访问网站
 
-启动tomcat 在浏览器中访问http://localhost:8080/projectname/index/index
+部署好项目之后访问 http://YourServerName:YourProt/projectName
 
 ### 3 默认初始账号
 
