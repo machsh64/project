@@ -117,7 +117,7 @@
 
     <!-- Breadcrumbs-->
     <section class="breadcrumbs-custom bg-image"
-             th:style="'background-image: url(http://127.0.0.1:8080/web20sch2_4_SSM/static/images/headBc.jpg)'">
+             th:style="${'background-image: url('+session.urlStatic+'/static/images/headBc.jpg)'}">
         <div class="shell">
             <h1 class="breadcrumbs-custom__title" th:if="${session.admin==null and session.author==null}" th:text="登录以进行访问">Wel TEST</h1>
             <h1 class="active" th:if="${session.author!=null and session.logNum==0}"

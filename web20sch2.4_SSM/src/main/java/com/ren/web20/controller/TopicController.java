@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.Date;
 import java.util.LinkedList;
@@ -31,10 +32,20 @@ public class TopicController {
 
     // 首页专题展示
     @RequestMapping(value = {"/index/{page}","/"},method = RequestMethod.GET)
-    public String page(@PathVariable(value = "page",required = false) String page, HttpSession session) {
+    public String page(@PathVariable(value = "page",required = false) String page, HttpSession session, HttpServletRequest request) {
         if (page == null){
             page = "index";
         }
+        if (session.getAttribute("isFirstIn")==null){
+            session.setAttribute("isFirstIn","notFirstIn");
+            String scheme = request.getScheme();// http
+            String serverName = request.getServerName();// 127.0.1
+            int serverPort = request.getServerPort();  //  8080
+            String contextPath = request.getContextPath();// 项目名
+            String url = scheme+"://"+serverName+":"+serverPort+contextPath;  //http://127.0.0.1:8080/projectName
+            session.setAttribute("urlStatic",url);
+        }
+
         List<Topic> allTopic = topicService.getAllTopic();
         session.setAttribute("topicList", allTopic);
         //首页只进行6个专题展示

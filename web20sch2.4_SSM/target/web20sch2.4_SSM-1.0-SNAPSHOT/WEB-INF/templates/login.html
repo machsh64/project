@@ -107,7 +107,7 @@
 
     <!-- Breadcrumbs-->
     <section class="breadcrumbs-custom bg-image"
-             th:style="'background-image: url(http://127.0.0.1:8080/web20sch2_4_SSM/static/images/loginbg.png)'">
+             th:style="${'background-image: url('+ session.urlStatic+'/static/images/loginbg.png)'}">
         <div class="shell">
             <h1 class="breadcrumbs-custom__title" th:if="${session.logNum==0 and session.enrollNum==0}">用户 登录</h1>
             <h1 class="breadcrumbs-custom__title" th:if="${session.logNum==1 and session.enrollNum==0}">管理员 登录</h1>
