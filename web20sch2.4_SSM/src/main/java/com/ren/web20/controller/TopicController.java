@@ -30,8 +30,11 @@ public class TopicController {
     private UserBasicService userBasicService;
 
     // 首页专题展示
-    @RequestMapping(value = "/index/{page}",method = RequestMethod.GET)
-    public String page(@PathVariable("page") String page, HttpSession session) {
+    @RequestMapping(value = {"/index/{page}","/"},method = RequestMethod.GET)
+    public String page(@PathVariable(value = "page",required = false) String page, HttpSession session) {
+        if (page == null){
+            page = "index";
+        }
         List<Topic> allTopic = topicService.getAllTopic();
         session.setAttribute("topicList", allTopic);
         //首页只进行6个专题展示

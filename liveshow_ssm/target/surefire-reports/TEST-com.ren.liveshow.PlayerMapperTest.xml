@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="2" failures="0" name="com.ren.liveshow.PlayerMapperTest" time="0.003" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\bin"/>
+    <property name="java.vm.version" value="25.291-b10"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\RenComp\gitRep\liveshow_ssm"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\RenComp\gitRep\liveshow_ssm"/>
+    <property name="java.runtime.version" value="1.8.0_291-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\machs\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\IntelliJ IDEA 2020.1.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\Maven\apache-maven-3.6.3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\bin;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\bin;D:\VMware\bin\;OpenSSH\;D:\Git\cmd;D:\Bandizip\;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\MySQL\mysql-8.0.30-winx64\bin;D:\MySQL\mysql-8.0.30-winx64;D:\TomCat\apache-tomcat-8.5.82\lib;D:\TomCat\apache-tomcat-8.5.82\lib\servlet-api.jar;D:\TomCat\apache-tomcat-8.5.82\lib\jsp-api.jar;D:\TomCat\apache-tomcat-8.5.82\bin;D:\Maven\apache-maven-3.6.3\bin;D:\Python\Python-3.11.1;D:\Python\Python-3.11.1\Scripts;C:\Users\machs\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="D:\Maven\apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\Maven\maven-repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\machs"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="machsh"/>
+    <property name="java.class.path" value="D:\Maven\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;D:\Maven\apache-maven-3.6.3\boot\plexus-classworlds.license;D:\IntelliJ IDEA 2020.1.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2020.1.2 --offline -s D:\Maven\apache-maven-3.6.3\conf\settings.xml -Dmaven.repo.local=D:\Maven\maven-repository package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="idea.version2020.1.2" value="true"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_291"/>
+    <property name="java.ext.dirs" value="D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\resources.jar;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\rt.jar;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\sunrsasign.jar;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\jsse.jar;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\jce.jar;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\charsets.jar;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\lib\jfr.jar;D:\IDEA\JAVApj\jdk8\jdk1.8.0_291\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Maven\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.ren.liveshow.PlayerMapperTest" name="testGetSortList" time="0.003">
+    <error message="Error creating bean with name &apos;com.ren.liveshow.PlayerMapperTest&apos;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.ren.liveshow.PlayerMapperTest&apos;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:406)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1777)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1333)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:521)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:229)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 32 more
+</error>
+    <system-out>20:08:35,916 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:08:35,916 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+20:08:35,916 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/logback.xml]
+20:08:35,968 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:08:35,970 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+20:08:35,973 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:08:35,986 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+20:08:35,986 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+20:08:35,986 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.ren.liveshow.mapper] to DEBUG
+20:08:35,987 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+20:08:35,987 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@51081592 - Registering current configuration as safe fallback point
+[20:08:36.030] [DEBUG] [main] [org.springframework.test.context.junit4.SpringJUnit4ClassRunner]
+                [SpringJUnit4ClassRunner constructor called with [class com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.033] [DEBUG] [main] [org.springframework.test.context.BootstrapUtils]
+                [Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]]
+[20:08:36.039] [DEBUG] [main] [org.springframework.test.context.BootstrapUtils]
+                [Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]]
+[20:08:36.053] [DEBUG] [main] [org.springframework.test.context.BootstrapUtils]
+                [Instantiating TestContextBootstrapper for test class [com.ren.liveshow.PlayerMapperTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]]
+[20:08:36.067] [DEBUG] [main] [org.springframework.test.context.support.AbstractDelegatingSmartContextLoader]
+                [Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@6dde5c8c declaringClass = &apos;com.ren.liveshow.PlayerMapperTest&apos;, classes = &apos;{}&apos;, locations = &apos;{classpath:spring-persist.xml}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].]
+[20:08:36.089] [DEBUG] [main] [org.springframework.test.context.support.ActiveProfilesUtils]
+                [Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.090] [DEBUG] [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+                [@TestExecutionListeners is not present for class [com.ren.liveshow.PlayerMapperTest]: using defaults.]
+[20:08:36.090] [INFO ] [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+                [Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]]
+[20:08:36.102] [INFO ] [main] [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+                [Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@c8e4bb0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6279cee3, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4206a205, org.springframework.test.context.support.DirtiesContextTestExecutionListener@29ba4338, org.springframework.test.context.transaction.TransactionalTestExecutionListener@57175e74, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7bb58ca3, org.springframework.test.context.event.EventPublishingTestExecutionListener@c540f5a]]
+[20:08:36.103] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.103] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.104] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.104] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.105] [DEBUG] [main] [org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener]
+                [Before test class: context [DefaultTestContext@157632c9 testClass = PlayerMapperTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ee12bac testClass = PlayerMapperTest, locations = &apos;{classpath:spring-persist.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].]
+[20:08:36.106] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.106] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.107] [DEBUG] [main] [org.springframework.test.context.support.DependencyInjectionTestExecutionListener]
+                [Performing dependency injection for test context [[DefaultTestContext@157632c9 testClass = PlayerMapperTest, testInstance = com.ren.liveshow.PlayerMapperTest@589b3632, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ee12bac testClass = PlayerMapperTest, locations = &apos;{classpath:spring-persist.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]]].]
+[20:08:36.107] [DEBUG] [main] [org.springframework.test.context.support.AbstractDelegatingSmartContextLoader]
+                [Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@6ee12bac testClass = PlayerMapperTest, locations = &apos;{classpath:spring-persist.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]].]
+[20:08:36.108] [DEBUG] [main] [org.springframework.test.context.support.AbstractGenericContextLoader]
+                [Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@6ee12bac testClass = PlayerMapperTest, locations = &apos;{classpath:spring-persist.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]].]
+[20:08:36.132] [DEBUG] [main] [org.springframework.core.env.StandardEnvironment]
+                [Activating profiles []]
+[20:08:36.205] [DEBUG] [main] [org.springframework.beans.factory.xml.XmlBeanDefinitionReader]
+                [Loaded 10 bean definitions from class path resource [spring-persist.xml]]
+[20:08:36.211] [DEBUG] [main] [org.springframework.context.support.GenericApplicationContext]
+                [Refreshing org.springframework.context.support.GenericApplicationContext@6b419da]
+[20:08:36.232] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;]
+[20:08:36.255] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;mapperScannerConfigurer&apos;]
+[20:08:36.275] [DEBUG] [main] [org.apache.ibatis.logging.LogFactory]
+                [Logging initialized using &apos;class org.apache.ibatis.logging.slf4j.Slf4jImpl&apos; adapter.]
+[20:08:36.287] [DEBUG] [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]
+                [Identified candidate component class: file [D:\RenComp\gitRep\liveshow_ssm\target\classes\com\ren\liveshow\mapper\PlayerMapper.class]]
+[20:08:36.290] [DEBUG] [main] [org.mybatis.spring.mapper.ClassPathMapperScanner]
+                [Creating MapperFactoryBean with name &apos;playerMapper&apos; and &apos;com.ren.liveshow.mapper.PlayerMapper&apos; mapperInterface]
+[20:08:36.292] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;]
+[20:08:36.300] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver]
+                [Found key &apos;jdbc.driver&apos; in PropertySource &apos;localProperties&apos; with value of type String]
+[20:08:36.300] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver]
+                [Found key &apos;jdbc.url&apos; in PropertySource &apos;localProperties&apos; with value of type String]
+[20:08:36.300] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver]
+                [Found key &apos;jdbc.username&apos; in PropertySource &apos;localProperties&apos; with value of type String]
+[20:08:36.300] [DEBUG] [main] [org.springframework.core.env.PropertySourcesPropertyResolver]
+                [Found key &apos;jdbc.password&apos; in PropertySource &apos;localProperties&apos; with value of type String]
+[20:08:36.301] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;]
+[20:08:36.302] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionalEventListenerFactory&apos;]
+[20:08:36.302] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;]
+[20:08:36.303] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;]
+[20:08:36.304] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;]
+[20:08:36.306] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;]
+[20:08:36.322] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;druidDataSource&apos;]
+[20:08:36.363] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;]
+[20:08:36.364] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;]
+[20:08:36.382] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;sqlSessionFactory&apos;]
+[20:08:36.448] [DEBUG] [main] [org.apache.ibatis.io.VFS]
+                [Class not found: org.jboss.vfs.VFS]
+[20:08:36.449] [DEBUG] [main] [org.apache.ibatis.io.JBoss6VFS]
+                [JBoss 6 VFS API is not available in this environment.]
+[20:08:36.449] [DEBUG] [main] [org.apache.ibatis.io.VFS]
+                [Class not found: org.jboss.vfs.VirtualFile]
+[20:08:36.449] [DEBUG] [main] [org.apache.ibatis.io.VFS]
+                [VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.]
+[20:08:36.450] [DEBUG] [main] [org.apache.ibatis.io.VFS]
+                [Using VFS adapter org.apache.ibatis.io.DefaultVFS]
+[20:08:36.450] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Find JAR URL: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/pojo]
+[20:08:36.450] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Not a JAR: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/pojo]
+[20:08:36.471] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Reader entry: Player.class]
+[20:08:36.472] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Listing file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/pojo]
+[20:08:36.472] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Find JAR URL: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/pojo/Player.class]
+[20:08:36.472] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Not a JAR: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/pojo/Player.class]
+[20:08:36.473] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;\]
+[20:08:36.473] [DEBUG] [main] [org.apache.ibatis.io.ResolverUtil]
+                [Checking to see if class com.ren.liveshow.pojo.Player matches criteria [is assignable to Object]]
+[20:08:36.475] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Find JAR URL: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/mapper]
+[20:08:36.475] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Not a JAR: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/mapper]
+[20:08:36.476] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Reader entry: PlayerMapper.class]
+[20:08:36.476] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Reader entry: PlayerMapper.xml]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Listing file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/mapper]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Find JAR URL: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/mapper/PlayerMapper.class]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Not a JAR: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/mapper/PlayerMapper.class]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Reader entry: ����&amp;#0;&amp;#0;&amp;#0;4&amp;#0;&amp;#15;&amp;#7;&amp;#0;]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Find JAR URL: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/mapper/PlayerMapper.xml]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Not a JAR: file:/D:/RenComp/gitRep/liveshow_ssm/target/classes/com/ren/liveshow/mapper/PlayerMapper.xml]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.DefaultVFS]
+                [Reader entry: &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;]
+[20:08:36.477] [DEBUG] [main] [org.apache.ibatis.io.ResolverUtil]
+                [Checking to see if class com.ren.liveshow.mapper.PlayerMapper matches criteria [is assignable to Object]]
+[20:08:36.516] [DEBUG] [main] [org.mybatis.spring.SqlSessionFactoryBean]
+                [Parsed configuration file: &apos;class path resource [mybatis-config.xml]&apos;]
+[20:08:36.517] [DEBUG] [main] [org.mybatis.spring.SqlSessionFactoryBean]
+                [Property &apos;mapperLocations&apos; was not specified.]
+[20:08:36.518] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;transactionManager&apos;]
+[20:08:36.523] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;]
+[20:08:36.527] [DEBUG] [main] [org.springframework.beans.factory.support.DefaultListableBeanFactory]
+                [Creating shared instance of singleton bean &apos;playerMapper&apos;]
+[20:08:36.569] [DEBUG] [main] [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+                [Storing ApplicationContext [112466394] in cache under key [[MergedContextConfiguration@6ee12bac testClass = PlayerMapperTest, locations = &apos;{classpath:spring-persist.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]]
+[20:08:36.569] [DEBUG] [main] [org.springframework.test.context.cache]
+                [Spring test ApplicationContext cache statistics: [DefaultContextCache@6c0d7c83 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]]
+[20:08:36.576] [ERROR] [main] [org.springframework.test.context.TestContextManager]
+                [Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4206a205] to prepare test instance [com.ren.liveshow.PlayerMapperTest@589b3632]]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.ren.liveshow.PlayerMapperTest&apos;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:406)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1777)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1333)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:521)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:229)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 32 common frames omitted
+</system-out>
+  </testcase>
+  <testcase classname="com.ren.liveshow.PlayerMapperTest" name="testGetSortListService" time="0">
+    <error message="Error creating bean with name &apos;com.ren.liveshow.PlayerMapperTest&apos;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.ren.liveshow.PlayerMapperTest&apos;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:406)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1777)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1333)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:521)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:229)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 32 more
+</error>
+    <system-out>[20:08:36.579] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved @ProfileValueSourceConfiguration [null] for test class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.579] [DEBUG] [main] [org.springframework.test.annotation.ProfileValueUtils]
+                [Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.ren.liveshow.PlayerMapperTest]]
+[20:08:36.580] [DEBUG] [main] [org.springframework.test.context.support.DependencyInjectionTestExecutionListener]
+                [Performing dependency injection for test context [[DefaultTestContext@157632c9 testClass = PlayerMapperTest, testInstance = com.ren.liveshow.PlayerMapperTest@455b6df1, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ee12bac testClass = PlayerMapperTest, locations = &apos;{classpath:spring-persist.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]]].]
+[20:08:36.580] [DEBUG] [main] [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+                [Retrieved ApplicationContext [112466394] from cache with key [[MergedContextConfiguration@6ee12bac testClass = PlayerMapperTest, locations = &apos;{classpath:spring-persist.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]]
+[20:08:36.580] [DEBUG] [main] [org.springframework.test.context.cache]
+                [Spring test ApplicationContext cache statistics: [DefaultContextCache@6c0d7c83 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]]
+[20:08:36.580] [ERROR] [main] [org.springframework.test.context.TestContextManager]
+                [Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4206a205] to prepare test instance [com.ren.liveshow.PlayerMapperTest@455b6df1]]
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.ren.liveshow.PlayerMapperTest&apos;: Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1415)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:406)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type &apos;com.ren.liveshow.service.GameService&apos; available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1777)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1333)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:521)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:497)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:650)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:229)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:318)
+	... 32 common frames omitted
+</system-out>
+  </testcase>
+</testsuite>
