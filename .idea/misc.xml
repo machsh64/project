@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/LiveShow_sch" />
-    <file type="web" url="file://$PROJECT_DIR$/liveshow_ssm" />
-    <file type="web" url="file://$PROJECT_DIR$/web20sch1.2" />
+    <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch2.1_SSM" />
-    <file type="web" url="file://$PROJECT_DIR$/web20sch2.1_SSM_mybatis" />
     <file type="web" url="file://$PROJECT_DIR$/web20sch2.2_SSM_spring" />
-    <file type="web" url="file://$PROJECT_DIR$/web20sch2.4_SSM" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -21,6 +18,8 @@
         <option value="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/liveshow_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/web20sch2.4_SSM/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/web20sch3.0_springboot/pom.xml" />
       </list>
     </option>
   </component>

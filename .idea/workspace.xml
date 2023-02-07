@@ -31,11 +31,306 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3df1269e-0e1a-4fbf-96e2-f432276e54cb" name="Default Changelist" comment="md" />
+    <list default="true" id="3df1269e-0e1a-4fbf-96e2-f432276e54cb" name="Default Changelist" comment="md">
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/Web20Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/config/MyDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/controller/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/interceptor/AdminLoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/mapper/AdminBasicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/mapper/TopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/mapper/UserBasicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/pojo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/pojo/AdminWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/pojo/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/pojo/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/service/AdminBasicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/service/TopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/service/UserBasicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/service/impl/AdminBasicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/service/impl/TopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/service/impl/UserBasicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/java/com/ren/web20/util/TopicUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/mapper/AdminBasicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/mapper/TopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/mapper/UserBasicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/MaterialIcons-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/MaterialIcons-Regular.ijmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/Mercury-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/Mercury-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/Mercury-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/fl-bigmug-line.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/fl-bigmug-line.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/fl-bigmug-line.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/lg.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/materialdesignicons-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/_blank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/about-1-437x435.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/about-1-531x640.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/about-2-649x427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/about-3-649x427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/about-4-649x427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/award-1-134x98-inverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/award-2-115x117-inverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/award-3-116x103-inverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/award-4-131x96-inverse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/bg-image-6-1920x1225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/bg-image-7-1920x1244.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/breadcrumbs-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/certificate-1-120x171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/certificate-1-847x1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/certificate-2-847x1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/certificate-3-847x1200.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-1-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-1-440x327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-10-444x683.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-10-835x1200-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-14-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-14-440x327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-15-1200x801-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-15-440x327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-2-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-2-440x327.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-9-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/gallery-image-9-444x683.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/group-image-1-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/group-image-2-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/group-image-3-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/group-image-4-1200x800-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/home1-1-961x664.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/home1-2-961x664.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/home1-3-961x664.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/home1-4-1200x695-original.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/home1-4-961x664.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/isotope-loader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/logo-default-237x35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/logo-inverse-237x35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/mCSB_buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/preloader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/typography-1-770x485.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/user-1-46x46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/user-2-46x46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/user-6-46x46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/video-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/vimeo-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/images/youtube-play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/bootstrap-fa/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/css/style-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/lg.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/lg.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/materialdesignicons-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/2021031609321462.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/LineDe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/catch_us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/headBc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/loginPage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/loginbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/main_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/main_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/main_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/main_bc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/mian_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/topicwA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/warp_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/warp_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/warp_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images/warp_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/authorWadmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/modernizr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/topicHt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/authorWadmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/contact-us.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/error/4xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/error/5xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/setTopic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/topicDetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/topicHt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/templates/weblogin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/test/java/com/ren/web20/AdminWebTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web20sch3.0_springboot/src/test/java/com/ren/web20/Web20ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiveShow_sch/LiveShow_sch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LiveShow_sch/LiveShow_sch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiveShow_sch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LiveShow_sch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LiveShow_sch/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LiveShow_sch/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/liveshow_ssm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/liveshow_ssm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/src/main/java/com/ren/liveshow/util/SortListToArrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/src/main/java/com/ren/liveshow/util/SortListToArrayUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/target/liveshow_ssm-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/target/liveshow_ssm-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/target/surefire-reports/TEST-com.ren.liveshow.PlayerMapperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/target/surefire-reports/TEST-com.ren.liveshow.PlayerMapperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/liveshow_ssm/target/surefire-reports/com.ren.liveshow.PlayerMapperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/liveshow_ssm/target/surefire-reports/com.ren.liveshow.PlayerMapperTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/java/com/ren/web20/dao/impl/UserBasicDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/java/com/ren/web20/dao/impl/UserBasicDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/src/main/webapp/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/target/web20sch1.2-1.0-SNAPSHOT/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch1.2/web20sch1.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch1.2/web20sch1.2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/src/main/webapp/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/TEST-com.ren.web20.test.AdminBasicMapperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/TEST-com.ren.web20.test.AdminBasicMapperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/TEST-com.ren.web20.test.TopicMapperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/TEST-com.ren.web20.test.TopicMapperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/TEST-com.ren.web20.test.UserBasicMapperTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/TEST-com.ren.web20.test.UserBasicMapperTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/com.ren.web20.test.AdminBasicMapperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/com.ren.web20.test.AdminBasicMapperTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/com.ren.web20.test.TopicMapperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/com.ren.web20.test.TopicMapperTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/com.ren.web20.test.UserBasicMapperTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/surefire-reports/com.ren.web20.test.UserBasicMapperTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM-1.0-SNAPSHOT/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/target/web20sch2.1_SSM_mybatis-1.0-SNAPSHOT/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/web20sch2.1_SSM_mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.1_SSM_mybatis/web20sch2.1_SSM_mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/templates/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/src/main/webapp/static/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/templates/contact-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/templates/contact-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/templates/topicHt.html" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/templates/topicHt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/Mercury-Regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/Mercury-Regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/fl-bigmug-line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/fl-bigmug-line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/lg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/lg.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/materialdesignicons-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/js/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/js/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/bootstrap-fa/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/target/web20sch2.4_SSM-1.0-SNAPSHOT/static/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web20sch2.4_SSM/web20sch2.4_SSM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web20sch2.4_SSM/web20sch2.4_SSM.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/web20_springboot">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,8 +340,8 @@
         <option value="jdbc" />
         <option value="mybatis-mapper" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -91,36 +386,56 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web20sch3.0_springboot/src/main/resources/static/images" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.289899" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\RenComp\gitRep\web20sch3.0_springboot\src\main\resources\static\images" />
+      <recent name="D:\RenComp\gitRep\web20sch3.0_springboot\src\main\resources\templates" />
+      <recent name="D:\RenComp\gitRep\web20sch3.0_springboot\src\main\resources\static\css" />
+      <recent name="D:\RenComp\gitRep\web20sch3.0_springboot\src\main\resources\static\js" />
+      <recent name="D:\RenComp\gitRep\web20sch3.0_springboot\src\main\resources\static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ren.web20.controller" />
+      <recent name="com.ren.myssm.util" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\static" />
       <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\WEB-INF\templates" />
       <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src\main" />
       <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src\main\webapp" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ren.web20.controller" />
-      <recent name="com.ren.myssm.util" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\static\js" />
-      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\webapp\WEB-INF\templates" />
-      <recent name="D:\RenComp\gitRep\web20sch2.4_SSM\src\main\java\com\ren\web20" />
-      <recent name="D:\RenComp\gitRep" />
-      <recent name="D:\RenComp\gitRep\web20sch2.2_SSM_spring\src\main" />
-    </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.web20 SSM">
+  <component name="RunManager" selected="Spring Boot.Web20Application">
+    <configuration name="AdminWebTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web20sch3.0_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ren.web20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ren.web20" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.web20.AdminWebTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserBasicMapperTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web20sch2.1_SSM" />
       <extension name="coverage">
@@ -185,18 +500,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserBasicMapperTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="web20sch2.1_SSM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ren.web20.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ren.web20.test" />
-      <option name="MAIN_CLASS_NAME" value="com.ren.web20.test.UserBasicMapperTest" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Web20Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web20sch3.0_springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ren.web20.Web20Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -424,18 +730,19 @@
       <item itemvalue="JUnit.UserBasicMapperTest.testFinder" />
       <item itemvalue="JUnit.UserBasicMapperTest.testGetAllUser" />
       <item itemvalue="JUnit.UserBasicMapperTest.testGetAuthorById" />
-      <item itemvalue="JUnit.UserBasicMapperTest.testLogin" />
       <item itemvalue="Tomcat Server.web20 SSM" />
       <item itemvalue="Tomcat Server.Tomcat web20sch2.1 mybatis" />
       <item itemvalue="Tomcat Server.Tomcat web20sch1.2 IOC" />
+      <item itemvalue="Spring Boot.Web20Application" />
+      <item itemvalue="JUnit.AdminWebTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminWebTest.test" />
         <item itemvalue="JUnit.UserBasicMapperTest.testAddUser" />
         <item itemvalue="JUnit.UserBasicMapperTest.testGetAllUser" />
         <item itemvalue="JUnit.UserBasicMapperTest.testGetAuthorById" />
         <item itemvalue="JUnit.UserBasicMapperTest.testFinder" />
-        <item itemvalue="JUnit.UserBasicMapperTest.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +776,9 @@
       <workItem from="1674215665450" duration="102000" />
       <workItem from="1674216137843" duration="1071000" />
       <workItem from="1674219930477" duration="2291000" />
+      <workItem from="1674223047518" duration="615000" />
+      <workItem from="1674899931585" duration="1990000" />
+      <workItem from="1675734416854" duration="10000000" />
     </task>
     <task id="LOCAL-00001" summary="md">
       <created>1670076639696</created>
@@ -529,10 +839,10 @@
     </state>
     <state x="449" y="217" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674220060136" />
     <state x="479" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073671032" />
-    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1673090818781">
+    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1675739052172">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673090818781" />
+    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675739052172" />
     <state x="661" y="478" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1671616499556">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -541,64 +851,68 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673091822901" />
-    <state x="1162" y="213" key="FileChooserDialogImpl" timestamp="1674216338536">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1675735640725">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1162" y="213" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674216338536" />
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675735640725" />
+    <state x="1162" y="213" key="FileChooserDialogImpl" timestamp="1675007195367">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1162" y="213" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675007195367" />
     <state x="2533" y="119" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671569435346" />
-    <state width="1876" height="270" key="GridCell.Tab.0.bottom" timestamp="1674222223531">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1675744183404">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="270" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223531" />
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183404" />
     <state width="1189" height="184" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.0.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1876" height="270" key="GridCell.Tab.0.center" timestamp="1674222223531">
+    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1675744183404">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="270" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223531" />
+    <state width="1876" height="334" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183404" />
     <state width="1189" height="184" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168818" />
     <state width="680" height="319" key="GridCell.Tab.0.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1876" height="270" key="GridCell.Tab.0.left" timestamp="1674222223531">
+    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1675744183403">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="270" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223531" />
+    <state width="1876" height="334" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183403" />
     <state width="1189" height="184" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168818" />
     <state width="680" height="319" key="GridCell.Tab.0.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1876" height="270" key="GridCell.Tab.0.right" timestamp="1674222223531">
+    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1675744183404">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="270" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223531" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183404" />
     <state width="1189" height="184" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.0.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.0.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1579" height="213" key="GridCell.Tab.1.bottom" timestamp="1674222223528">
+    <state width="1876" height="334" key="GridCell.Tab.1.bottom" timestamp="1675744183405">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="213" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223528" />
+    <state width="1876" height="334" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183405" />
     <state width="1189" height="184" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.bottom/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.bottom/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1579" height="213" key="GridCell.Tab.1.center" timestamp="1674222223528">
+    <state width="1876" height="334" key="GridCell.Tab.1.center" timestamp="1675744183405">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="213" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223528" />
+    <state width="1876" height="334" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183405" />
     <state width="1189" height="184" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.center/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.center/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1579" height="213" key="GridCell.Tab.1.left" timestamp="1674222223528">
+    <state width="1876" height="334" key="GridCell.Tab.1.left" timestamp="1675744183405">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="213" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223528" />
+    <state width="1876" height="334" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183405" />
     <state width="1189" height="184" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.left/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.left/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
-    <state width="1579" height="213" key="GridCell.Tab.1.right" timestamp="1674222223528">
+    <state width="1876" height="334" key="GridCell.Tab.1.right" timestamp="1675744183405">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1579" height="213" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674222223528" />
+    <state width="1876" height="334" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675744183405" />
     <state width="1189" height="184" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@1920.0.1463.823" timestamp="1671457168819" />
     <state width="680" height="319" key="GridCell.Tab.1.right/2560.4.1463.823/0.0.2048.1152@0.0.2048.1152" timestamp="1670073692889" />
     <state width="476" height="319" key="GridCell.Tab.1.right/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076108652" />
@@ -671,10 +985,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="816" y="0" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671111352475" />
-    <state x="71" y="161" width="1736" height="834" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1673260446137">
+    <state x="71" y="161" width="1736" height="834" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1675735640725">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="71" y="161" width="1736" height="834" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673260446137" />
+    <state x="71" y="161" width="1736" height="834" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675735640725" />
     <state x="739" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1670077413266">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -688,10 +1002,10 @@
       <screen x="2560" y="4" width="1463" height="823" />
     </state>
     <state x="3005" y="202" key="git4idea.merge.GitPullDialog/2560.4.1463.823/0.0.2048.1152@2560.4.1463.823" timestamp="1670076084951" />
-    <state x="334" y="201" key="new project wizard" timestamp="1671616390709">
+    <state x="519" y="248" key="new project wizard" timestamp="1675735375121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="334" y="201" key="new project wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1671616390709" />
+    <state x="519" y="248" key="new project wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675735375121" />
     <state x="815" y="276" width="882" height="890" key="search.everywhere.popup" timestamp="1673345176961">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -708,23 +1022,8 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/service/impl/TopicServiceImpl.java</url>
           <line>49</line>
-          <properties class="com.ren.web20.service.impl.TopicServiceImpl" method="addTopic">
-            <option name="EMULATED" value="true" />
-          </properties>
+          <properties class="com.ren.web20.service.impl.TopicServiceImpl" method="addTopic" />
           <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/controller/TopicController.java</url>
-          <line>127</line>
-          <properties class="com.ren.web20.controller.TopicController" method="updateTopic">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/web20sch2.4_SSM/src/main/java/com/ren/web20/controller/TopicController.java</url>
-          <line>119</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
