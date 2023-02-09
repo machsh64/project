@@ -29,6 +29,11 @@ spring:
         url-pattern: /*
         exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
 
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
 mybatis:
   mapper-locations: classpath:/mapper/*.xml
   configuration:
