@@ -87,11 +87,14 @@ public class UserController {
         return "weblogin";
     }
 
+    @Autowired
+    AdminWeb adminWeb;
+
     @PostMapping("/weblogin")
     public String main(@RequestParam("username") String username, @RequestParam("password") String password, Model model,HttpSession session) throws IOException {
-        AdminWeb admin = AdminWeb.getInstance();
-        if (admin.getUsername().equals(username)&&admin.getPassword().equals(password)) {
-            session.setAttribute("adminLogin",admin);
+
+        if (adminWeb.getUsername().equals(username)&&adminWeb.getPassword().equals(password)) {
+            session.setAttribute("adminLogin",adminWeb);
             // 登录成功 重定向到index页面
             return "redirect:/";
         }else {

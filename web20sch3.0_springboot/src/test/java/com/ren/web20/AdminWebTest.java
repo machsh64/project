@@ -4,6 +4,7 @@ import com.ren.web20.pojo.AdminWeb;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.FileReader;
@@ -20,9 +21,11 @@ import java.util.Properties;
 @SpringBootTest
 public class AdminWebTest {
 
+    @Autowired
+    AdminWeb instance;
+
     @Test
     public void test() throws IOException {
-        AdminWeb instance = AdminWeb.getInstance();
 
         log.info("#### adminWeb :  {}  ######",instance);
     }
