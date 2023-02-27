@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>GoldPriceGet</title>
+
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+</head>
+<body>
+<object type="text/html"
+        style="width: 50%;height: 660px;float: left"
+        data="https://m.jdjygold.com/finance-gold/newgold/index/?ordersource=1&jrcontainer=h5&jrlogin=true&jrcloseweb=false&jrwallet=false&jrxviewtype=false&jrgobackrefresh=false&rawJumpUrl=https%3A%2F%2Fm.jdjygold.com%2Ffinance-gold%2Fnewgold%2Findex%2F%3Fordersource%3D1&utm_term=copyurl#forward">
+</object>
+
+<div id="formApp" style="width: 50%;height: 660px;border: 22px red;float: left">
+    <form th:action="@{/setInfo}" method="post" onsubmit="return checkMsg(email,highPrice,lowPrice)">
+        <label>
+            邮箱：<input placeholder="Your Email" name="email" type="email">
+        </label>
+        <label>
+            高价提醒：<input placeholder="最高价" name="highPrice" type="text">
+        </label>
+        <label>
+            低价提醒：<input placeholder="最低价" name="lowPrice" type="text">
+        </label>
+        <input type="submit" value="提交提醒">
+    </form>
+    <a type="button" th:href="@{/giveUpSetInfo}">放弃提醒</a>
+</div>
+
+<script>
+    function checkMsg(email,highPrice,lowPrice) {
+        if (""!==email&&""!==highPrice&&""!==lowPrice){
+            return true;
+        }
+        alert("请重新输入数据")
+        return false;
+    }
+</script>
+</body>
+</html>

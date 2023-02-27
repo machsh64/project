@@ -40,7 +40,7 @@ public class UserController {
     private TopicService topicService;
 
     /* 利用loginNum进行用户/管理员判断 0为用户 1为管理员 */
-    @RequestMapping(value = {"/login/{loginNum}","/login"})
+    @PostMapping(value = {"/login/{loginNum}","/login"})
     public String login(@PathVariable(value = "loginNum") Integer loginNum, String loginId, String password, HttpSession session){
 
         if (loginNum == 0){

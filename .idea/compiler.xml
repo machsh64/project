@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="GoldPriceGet" />
         <module name="web20sch2.4_SSM" />
         <module name="web20sch1.2" />
         <module name="web20sch2.1_SSM_mybatis" />
@@ -23,6 +24,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="GoldPriceGet" options="-parameters" />
       <module name="LiveShow_sch" options="-parameters" />
       <module name="liveshow_ssm" options="-parameters" />
       <module name="web20_springboot" options="-parameters" />
